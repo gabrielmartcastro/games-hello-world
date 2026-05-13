@@ -1,24 +1,26 @@
 [gd_scene format=3 uid="uid://15o88vadatpn"]
 
-[ext_resource type="PackedScene" uid="uid://c7615cx75j1fl" path="res://player.tscn" id="1_3hls8"]
-[ext_resource type="Texture2D" uid="uid://bqeakbqctu4jq" path="res://chao.webp" id="2_hbghi"]
+[ext_resource type="PackedScene" uid="uid://c7615cx75j1fl" path="res://scenes/player.tscn" id="1_3hls8"]
+[ext_resource type="Texture2D" uid="uid://bqeakbqctu4jq" path="res://assets/chao.webp" id="2_hbghi"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hbghi"]
-size = Vector2(77.729996, 27.73)
+size = Vector2(32.3, 6.3)
 
 [node name="Level 1" type="Node2D" unique_id=1844652308]
 
 [node name="Player" parent="." unique_id=1954411457 instance=ExtResource("1_3hls8")]
-position = Vector2(531, 148)
+position = Vector2(241, 385)
+scale = Vector2(0.3, 0.3)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=552540918]
+position = Vector2(0, -48)
 
 [node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=1533076927]
-position = Vector2(398.49976, 1785.5)
-scale = Vector2(12.955001, 6.9325)
+position = Vector2(1059.5, 850.5)
+scale = Vector2(5.368334, 1.5575001)
 texture = ExtResource("2_hbghi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=495672285]
-position = Vector2(398.49997, 1785.5)
+position = Vector2(1067.0001, 854)
 scale = Vector2(100, 100)
 shape = SubResource("RectangleShape2D_hbghi")

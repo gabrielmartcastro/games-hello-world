@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqeakbqctu4jq"
-path="res://.godot/imported/chao.webp-7e2eb3c350950b36f049dc510002545c.ctex"
+path="res://.godot/imported/chao.webp-ef82d190f1de628166c50fbe146e72b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://chao.webp"
-dest_files=["res://.godot/imported/chao.webp-7e2eb3c350950b36f049dc510002545c.ctex"]
+source_file="res://assets/chao.webp"
+dest_files=["res://.godot/imported/chao.webp-ef82d190f1de628166c50fbe146e72b8.ctex"]
 
 [params]
 

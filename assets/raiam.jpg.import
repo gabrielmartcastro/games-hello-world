@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nimiunlxdst8"
-path="res://.godot/imported/raiam.jpg-251d72fa3138d94dcca2ee503e2ff5a9.ctex"
+path="res://.godot/imported/raiam.jpg-e1d32af8f1453d60bb54bd2fce73c523.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://raiam.jpg"
-dest_files=["res://.godot/imported/raiam.jpg-251d72fa3138d94dcca2ee503e2ff5a9.ctex"]
+source_file="res://assets/raiam.jpg"
+dest_files=["res://.godot/imported/raiam.jpg-e1d32af8f1453d60bb54bd2fce73c523.ctex"]
 
 [params]
 
